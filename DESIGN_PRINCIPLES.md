@@ -21,4 +21,4 @@
 
 A tool this close to a person's pain has exactly one honest posture: a mirror, not an oracle. Every rejected feature above was rejected because it would have made the tool the author of the person's story instead of a surface that reflects it. The belief that hard seasons can deepen a life may be true, but it is a belief a person is free to find in their own terrain, never a conclusion the terrain is engineered to hand them.
 
-The measure of this design is not what it can compute. It is that a person can stand in front of their whole life. The valleys at true depth and the path is unbroken. Everything they will see there is theirs and theirs alone.
+The measure of this design is not what it can compute. It is that a person can stand in front of their whole life. The valleys remain at their true depth, and the path remains unbroken. Everything they will see there is theirs and theirs alone.
