@@ -1,5 +1,5 @@
 # The Landscape
-### The path does not avoid the canyons. It climbs Out of them.
+### The path does not erase the canyons. It remains unbroken through them.
  
 > Life is hard and beautiful at the same time. Sometimes we are in the midst of something heavy… so heavy that we are unable to step back and see our life from afar. **This tool exists for that step back.**
  
