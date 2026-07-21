@@ -7,6 +7,10 @@ The Landscape turns your life's moments into a three-dimensional terrain. The ha
 Every depth and every height is placed by your hand. The land only renders what you already know.
 ---
 
+## Why I created this:
+
+I made The Landscape because a difficult season can occupy the whole horizon while you are living inside it. I wanted a way to step back without asking a machine to explain, diagnose, or rewrite the life being viewed.
+
 ## What this Is and what it Isn’t
 
 This is a personal reflection tool. You enter your own moments, you decide where each one lives, and the terrain shows you your own life from a vantage point daily life doesn't offer.
