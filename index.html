@@ -191,8 +191,8 @@ if(sorted[i].t - sorted[i-1].t < 7) sorted[i].t = sorted[i-1].t + 7;
 
 const PEAK_AMP=58, VALLEY_AMP=52, SIGMA=34;
 function terrainHeight(x,z){
-let h = Math.sin(x*0.018)*Math.cos(z*0.022)*4.5
-+ Math.sin(x*0.041+1.7)*Math.sin(z*0.037)*2.2;
+let h = Math.sin(x*0.018)*Math.cos(z*0.022)*8.0
++ Math.sin(x*0.041+1.7)*Math.sin(z*0.037)*4.5;
 for(const m of moments){
 const dx=x-m.t, dz=z-m.z;
 const g=Math.exp(-(dx*dx+dz*dz)/(2*SIGMA*SIGMA));
@@ -230,11 +230,11 @@ const markerGroup = new THREE.Group(); scene.add(markerGroup);
 const W=460, D=300, SEG=150;
 // Elevation palette: deep indigo valleys -> blue-violet -> teal/cyan land -> gold crests.
 // Gold and blue-violet sit across the colour wheel, while teal bridges them smoothly.
-const cValleyDeep=new THREE.Color(0x111631);
+const cValleyDeep=new THREE.Color(0x1a2a6c);
 const cValley=new THREE.Color(0x283877);
 const cBase=new THREE.Color(0x168697);
 const cHigh=new THREE.Color(0x68ded5);
-const cCrest=new THREE.Color(0xf3c77e);
+const cCrest=new THREE.Color(0xffe5a0);
 
 function buildTerrain(){
 if(terrainMesh){
