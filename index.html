@@ -17,7 +17,7 @@ html,body{height:100%;overflow:hidden;background:#080d1d;font-family:Georgia,'Ti
 #scene{position:fixed;inset:0}
 /* the canvas owns its own gestures — pinch zooms the land, not the page */
 #scene canvas{touch-action:none}
-.title{position:fixed;top:26px;left:30px;max-width:350px;z-index:10;pointer-events:none}
+.title{position:fixed;top:26px;left:30px;max-width:330px;z-index:10;pointer-events:none}
 .title h1{font-size:1.3rem;font-weight:normal;line-height:1.35}
 .title h1 em{font-style:italic;color:var(--gold)}
 .title p{margin-top:8px;font-size:0.75rem;line-height:1.5;color:var(--mist);font-family:Verdana,Geneva,sans-serif}
@@ -25,7 +25,7 @@ html,body{height:100%;overflow:hidden;background:#080d1d;font-family:Georgia,'Ti
 position:fixed;bottom:22px;left:50%;transform:translateX(-50%);
 z-index:10;text-align:center;
 font-family:Verdana,Geneva,sans-serif;font-size:0.64rem;color:var(--mist);
-opacity:0.65;letter-spacing:0.05em;pointer-events:none;line-height:1.6;
+opacity:0.65;letter-spacing:0.05em;pointer-events:none;line-height:1.8;
 white-space:nowrap;
 }
 /* full-sentence reader — appears when a moment's light is tapped */
@@ -141,10 +141,10 @@ button:hover{filter:brightness(1.08)}
 <div id="scene"></div>
 
 <div class="title">
-<h1><em>This is your Landscape, mapped by the moments you choose to include.</em></br></h1>
-You may see deep valleys, indicating painful times.<br>
-You may see tall mountain peaks, indicating times of triumph.</h2><em>
-<p>Every landscape has a path that never avoids the valleys — because the line connecting every moment you place climbs right out of them.</p></em>
+<h1><em>This is your Landscape, mapped by the moments you include.</em></br></h1>
+You may see deep valleys for painful times.<br>
+You may see tall mountain peaks for times of triumph.</h2>
+<p>Every landscape has a path that never avoids the valleys — because the line connecting every moment you place climbs right out of them.</p>
 </div>
 
 <!-- pill: always visible when composer is collapsed -->
@@ -184,7 +184,7 @@ You may see tall mountain peaks, indicating times of triumph.</h2><em>
 <button class="quiet" id="clear">Begin your own Landscape</button>
 <input type="file" id="loadfile" accept=".json,application/json">
 </div>
-<div class="privacy">This is a Sample Landscape. After choosing to begin with your own empty landscape, Nothing you enter will be seen by anyone unless you choose to show them. It will not be sent to any cloud or server. It lives on this screen — unless you keep a copy, and that file stays yours, on your device, to reopen whenever more of the story comes back to you.</div>
+<div class="privacy">The Landscape begins with Sample Entries. Click to Begin your own and know that Nothing you enter will be shared. It lives on this screen — unless you keep a copy. Come back with that copy to add Moments at any time.</div>
 </div>
 </div>
 
