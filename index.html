@@ -62,7 +62,7 @@ font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gol
 .composer-head b{
 font-size:0.85rem;color:var(--mist);font-weight:normal;
 }
-.composer-body{padding:4px 16px 13px}
+.composer-body{padding:8px 20px 16px}
 .composer.collapsed .composer-body{display:none}
 .composer label{
 display:block;font-size:0.64rem;letter-spacing:0.1em;text-transform:uppercase;
@@ -103,6 +103,15 @@ background:var(--gold);color:#1c1607;font-weight:bold;
 button.quiet{
 background:transparent;color:var(--mist);border:1px solid rgba(154,163,199,0.35);
 font-weight:normal;
+}
+button.begin{
+  background:transparent;
+  color:#68ded5;
+  border:1px solid #68ded5;
+  font-weight:normal;
+}
+button.begin:hover{
+  background:rgba(104,222,213,0.12);
 }
 button:hover{filter:brightness(1.08)}
 .privacy{margin-top:12px;padding-top:10px;border-top:1px solid rgba(154,163,199,0.15);font-size:0.62rem;color:var(--mist);opacity:0.85;line-height:1.6}
@@ -186,7 +195,7 @@ You may see tall mountain peaks for times of triumph.</em></h2>
 <button id="add">Place it on the land</button>
 <button class="quiet" id="save">Keep a copy</button>
 <button class="quiet" id="load">Open a saved map</button>
-<button class="quiet" id="clear">Begin your Landscape</button>
+<button class="begin" id="clear">Begin your Landscape</button>
 <input type="file" id="loadfile" accept=".json,application/json">
 </div>
 <div class="privacy">Know that Nothing you enter will be shared. It lives on this screen — unless you keep a copy. Come back with that copy to add Moments at any time.</div>
